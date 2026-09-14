@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const port = Number.parseInt(process.env.PORT ?? '8000', 10);
 const files = new Map([
   // 아래는 라우터 제작
-  // ['/', ['broken-site/index.html', 'text/html; charset=utf-8']],
+  // ['/', ['index.html', 'text/html; charset=utf-8']],
   // ['/index.html', ['index.html', 'text/html; charset=utf-8']],
   // ['/assets/styles.css', ['assets/styles.css', 'text/css; charset=utf-8']],
   // ['/assets/app.js', ['assets/app.js', 'text/javascript; charset=utf-8']],
